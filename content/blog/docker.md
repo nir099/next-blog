@@ -12,6 +12,9 @@ tags:
 ---
 #### Docker
 
+* docker system info
+* docker image pull <name>:latest 
+* docker image ls
 * docker image build -t <image name > . 
 * docker image push <image name >
 * docker service ls
