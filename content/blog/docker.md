@@ -16,9 +16,27 @@ tags:
 * docker image pull <name>:latest 
 * docker image ls
 * docker image build -t <image name > . 
+* docker image build -t <image_name> <git_repo>
 * docker image push <image name >
-* docker service ls
 * docker container ls
+  - list running containers
+* docker container run -it alphine sh 
+  - run docker container interactively with shell
+  - ctr + P + Q to exit
+     - this dose not kill the container
+  - running exit cmd kill the container
+* docker container ls -a 
+  - list all containers
+* docker container stop < id >
+  - part of id is sufficient 
+  - an id looklike 97969385874096298601640864
+  - giving 97 is enough
+* docker container start < id >
+* docker container exec -it < id > sh
+* docker swarm init
+* docker swarm join
+* docker swarm join-token manager
+* docker service ls
 * docker service ps <name>
 * docker service scale <name>=10
 
